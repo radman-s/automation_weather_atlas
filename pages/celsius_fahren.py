@@ -4,12 +4,12 @@ class CelsiusFahrenheit:
         self.val = val
 
     def fahrenheit(self):
-        fahre = int(round((9 * self.val) / 5 + 32))
-        return f'{fahre}°F'
+        fahre = round((9 * self.val) / 5 + 32)
+        return fahre
 
 
     def celsius(self):
-        cels = int(round((self.val - 32) * 5/9))
-        return f'{cels}°C'
+        cels = round((self.val - 32) * 5/9)
+        return cels
 
 
